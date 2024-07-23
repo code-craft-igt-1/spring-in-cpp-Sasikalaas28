@@ -1,10 +1,10 @@
 #include "stats.h"
 
-Stats Statistics::ComputeStatistics(const std::vector<double>& in) {
+Statistics::Stats Statistics::ComputeStatistics(const std::vector<double>& in) {
     //Implement statistics here
     int len = in.size(); //vector size
     double sum = 0.0; //sum of the vector elements
-    Stats st;
+    Statistics::Stats st;
     st.min = in[0];
     st.max = in[0];
   //  st.average = 0.0;
