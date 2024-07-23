@@ -5,6 +5,8 @@ Statistics::Stats Statistics::ComputeStatistics(const std::vector<double>& in) {
     int len = in.size(); //vector size
     double sum = 0.0; //sum of the vector elements
     Statistics::Stats st;
+    if(len == 0)
+        return st;
     st.min = in[0];
     st.max = in[0];
   //  st.average = 0.0;
