@@ -5,6 +5,8 @@ namespace Statistics {
     
     Stats ComputeStatistics(const std::vector<double>& );
     struct Stats{
-    double 
-}
+    double average;
+    double max;
+    double min;
+    };
 }
